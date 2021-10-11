@@ -1,0 +1,7 @@
+include 'farm:horse-service'
+include 'farm:owner-service'
+include 'farm:barn-service'
+include 'farm:barn-composite-service'
+include 'api'
+include 'utils'
+

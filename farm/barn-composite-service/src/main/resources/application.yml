@@ -1,0 +1,21 @@
+server.port: 8000
+server.error.include-message: always
+
+app:
+  barn-service:
+    host: localhost
+    port: 8001
+  horse-service:
+    host: localhost
+    port: 8002
+  owner-service:
+    host: localhost
+    port: 8003
+
+logging:
+  level:
+    root: INFO
+    com.dunwoody: DEBUG
+---
+spring.profiles: docker
+server.port: 8080
